@@ -274,6 +274,51 @@ h6 {
   font-weight: normal;
 }
 
+body {
+  background: #FAF3EB;
+  color: #1B1C1E;
+}
+
+.hero {
+  background: #F3BD1B;
+  display: inline-block;
+  width: 100%;
+  background-image: url("../img/mustard-noise.png");
+  min-height: 500px;
+  position: relative;
+}
+
+.hero-bg-img {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.product {
+  background: #FAF3EB;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 1.125em;
+  line-height: 1.5625em;
+}
+
+.product-price {
+  color: #737170;
+  font-style: italic;
+  font-weight: 1.6875em;
+}
+
 @media print {
   *:before, *:after {
     background: transparent !important;
